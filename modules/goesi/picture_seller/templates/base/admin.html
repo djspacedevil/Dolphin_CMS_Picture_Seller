@@ -1,0 +1,37 @@
+
+<div style="display: inline; float:left; font-size:150%; text-align:center; font-weight:bold;">Options</div><div style="display:inline; float:right; text-align:right:"></div>
+<center><span style="color:red;font-size:120%">__error__</span></center>
+<table width="100%"><tr>
+<td><bx_text:_goesi_pic_seller_group /></td><td>__allow_group__</td></tr>
+__auto_accept__
+__accept_photos__
+__accept_art__
+__accept_store__
+<tr><td><bx_text:_goesi_pic_seller_watermark_file /><br><span style="font-size:80%;"><bx_text:_goesi_pic_seller_pngs /></span> </td><td>
+    <form enctype="multipart/form-data" action="" method="POST">
+        <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+        <bx_text:_goesi_pic_seller_watermark_choose /> <input name="uploadedfile" type="file" /><br />
+        <input type="submit" value="Upload File" />
+    </form><br><bx_text:_goesi_pic_seller_review /><br>
+    <center>__watermark__</center>
+</td></tr>
+<tr><td><bx_text:_goesi_pic_seller_watermark_position /> </td><td>
+                                          <table>
+                                          __all_watermark_option__
+                                          </table>
+                                </td></tr>
+<tr><td><bx_text:_goesi_pic_seller_quality /> </td><td><select id="quality">__quality__</select></td></tr>
+
+<tr><td><bx_text:_goesi_pic_seller_preview /> </td><td><img width="400px" class="bild" src="<bx_image_url:demo_file.jpg />"></td></tr>
+<tr align="center">
+		<td colspan="2">
+			<a class="reload_pic" href="javascript:void(0)">
+				<img width="100px" src="<bx_icon_url:reload_page.png />">
+				<br>
+				<bx_text:_goesi_pic_seller_reload_review />
+			</a>
+		</td>
+</tr>
+</table>
+<center><img id="loading" style="display:none;" src="<bx_icon_url:ajax-loader.gif />"></center>
+

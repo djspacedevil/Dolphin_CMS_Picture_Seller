@@ -1,0 +1,14 @@
+##########################################################
+1.0.0 to 1.0.1
+add new options:
+- Only upload to own albums
+- Only upload to art gallerie
+- Only upload to shop
+
+Overwrite the follow files:
+picture_seller/classes/GoesiSellUserDB.php
+picture_seller/classes/GoesiSellUser.php
+picture_seller/install/langs/en.php
+picture_seller/install/langs/de.php
+picture_seller/install/config.php
+##########################################################
